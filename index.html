@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas - Prueba Técnica</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mis Tareas</h1>
+    </header>
+
+    <main>
+        <section class="input-section">
+            <form id="todo-form">
+                <input type="text" id="todo-input" placeholder="Ej: Estudiar JavaScript..." autocomplete="off">
+                <button type="submit" class="btn-add">
+                    <i class="fas fa-plus"></i> Agregar
+                </button>
+            </form>
+            <div class="error-msg" id="error-msg"></div>
+        </section>
+
+        <section class="filter-section">
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="completed">Completadas</button>
+                <button class="filter-btn" data-filter="pending">Pendientes</button>
+            </div>
+        </section>
+
+        <section class="list-section">
+            <ul id="todo-list" class="todo-list">
+                </ul>
+        </section>
+
+        <section class="stats-section">
+            <p>Tareas pendientes: <span id="pending-count">0</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado para Prueba Técnica &copy; 2026</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
