@@ -54,7 +54,7 @@ todo-list/
 │   └── app.js          # Lógica de negocio y manipulación del DOM
 └── README.md           # Documentación del proyecto
 ```
-🔧 Instalación y Uso Local
+## 🔧 Instalación y Uso Local
 Para ejecutar este proyecto en tu computadora, no necesitas instalar dependencias de Node.js.
 
 Clonar el repositorio:
@@ -73,5 +73,5 @@ Simplemente abre el archivo index.html en tu navegador web favorito (Chrome, Fir
 
 Opcional: Si usas VS Code, puedes usar la extensión "Live Server".
 
-👤 Autor
+## 👤 Autor
 T.S.U Luis Enrique De Santiago Colin
